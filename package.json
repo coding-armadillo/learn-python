@@ -1,0 +1,14 @@
+{
+  "name": "learn-python",
+  "scripts": {
+    "dev": "vuepress dev lesson",
+    "build": "vuepress build lesson",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "@mr-hope/vuepress-plugin-copy-code": "^1.17.0",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.8.2"
+  }
+}
