@@ -52,3 +52,5 @@ import this
 ```py
 print("Hello, world!")
 ```
+
+In the following section we will learn how to setup a Python environment alongside with some useful tools for development.
