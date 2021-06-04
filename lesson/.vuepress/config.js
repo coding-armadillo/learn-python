@@ -8,46 +8,25 @@ module.exports = {
       },
     ],
   ],
-  evergreen: true,
   title: "Learn Python",
-  theme: "@vuepress/theme-blog",
+  theme: "@vuepress/theme-default",
+  evergreen: true,
   themeConfig: {
-    directories: [
-      {
-        id: "lesson",
-        dirname: "_lessons",
-        path: "/lesson/",
-        itemPermalink: "/lesson/:slug",
-      },
-    ],
-    summary: false,
+    logo:
+      "https://raw.githubusercontent.com/coding-armadillo/coding-armadillo-logo/main/coding-armadillo-web.png",
+    sidebar: "auto",
+    searchPlaceholder: "Search...",
     smoothScroll: true,
+    lastUpdated: "Last Updated",
     nav: [
       {
         text: "Lessons",
-        link: "/lesson/",
+        link: "/lessons/",
       },
       {
         text: "Tags",
-        link: "/tag/",
+        link: "/tags/",
       },
     ],
-    footer: {
-      contact: [
-        {
-          type: "github",
-          link: "https://github.com/coding-armadillo/learn-python",
-        },
-        {
-          type: "twitter",
-          link: "https://twitter.com/CodingArmadillo",
-        },
-      ],
-      copyright: [
-        {
-          text: "MIT Licensed | Copyright © 2021-present Coding Armadillo",
-        },
-      ],
-    },
   },
 };

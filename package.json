@@ -8,7 +8,7 @@
   "devDependencies": {
     "@mr-hope/vuepress-plugin-copy-code": "^1.17.0",
     "@vuepress/plugin-back-to-top": "^1.8.2",
-    "@vuepress/theme-blog": "^2.3.3",
+    "@vuepress/theme-default": "^1.8.2",
     "vuepress": "^1.8.2"
   },
   "version": "0.1.0"
