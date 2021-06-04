@@ -3,7 +3,13 @@ title: Introduction
 tags:
   - Basic
   - Introduction
+prev: /lessons/
+next: ./setup.md
 ---
+
+# Introduction
+
+<TagLinks />
 
 ## About
 
