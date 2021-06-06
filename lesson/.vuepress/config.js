@@ -12,6 +12,11 @@ module.exports = {
   theme: "@vuepress/theme-default",
   evergreen: true,
   themeConfig: {
+    repo: "coding-armadillo/learn-python",
+    editLinks: true,
+    editLinkText: "Help us improve this page!",
+    docsDir: "lesson",
+    docsBranch: "main",
     logo:
       "https://raw.githubusercontent.com/coding-armadillo/coding-armadillo-logo/main/coding-armadillo-web.png",
     sidebar: "auto",
