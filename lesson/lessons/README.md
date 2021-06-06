@@ -1,5 +1,6 @@
 ---
 sidebar: false
+editLink: false
 ---
 
 # Table of Content
