@@ -8,6 +8,7 @@ module.exports = {
       },
     ],
   ],
+  base: process.env.BASE_URL || "/",
   title: "Learn Python",
   theme: "@vuepress/theme-default",
   evergreen: true,
