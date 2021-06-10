@@ -11,4 +11,8 @@ editLink: false
 
 ## Lesson 3 [Variable and Data Types](variable-and-data-types.md)
 
+## Lesson 4 [Python Scripts](script.md)
+
+## Lesson 5 [Operators](operator.md)
+
 to be continued...

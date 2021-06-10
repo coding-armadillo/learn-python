@@ -5,7 +5,7 @@ tags:
   - Variable
   - Data Type
 prev: ./setup.md
-next: false
+next: ./script.md
 ---
 
 # Variable and Data Types
