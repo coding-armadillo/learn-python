@@ -1,0 +1,14 @@
+{
+  "name": "Learn Python",
+  "short_name": "Learn Python",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Learn Python",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png"
+    }
+  ]
+}
