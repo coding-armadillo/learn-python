@@ -15,4 +15,6 @@ editLink: false
 
 ## Lesson 5 [Operators](operator.md)
 
+## Lesson 6 [Comments](comment.md)
+
 to be continued...
