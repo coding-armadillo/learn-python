@@ -9,6 +9,8 @@ next: ./operator.md
 
 # Python Scripts
 
+<TagLinks />
+
 We have tried using Python in the interactive shell.
 In fact we can save our work in textual files and use editors to help developing Python codes.
 

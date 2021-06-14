@@ -9,6 +9,8 @@ next: false
 
 # Commenting your Python Codes
 
+<TagLinks />
+
 Comments start with a `#`, and Python will consider rest of the line as a comment.
 
 We can start a new line.
