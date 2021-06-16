@@ -17,4 +17,6 @@ editLink: false
 
 ## Lesson 6 [Comments](comment.md)
 
+## Lesson 7 [Control Flow](control-flow.md)
+
 to be continued...
