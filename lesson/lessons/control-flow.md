@@ -71,7 +71,7 @@ if x > 0:
 
 Now value of `z` will display as long as `x` is greater than zero, regardless of `y`.
 
-### elif
+### `elif`
 
 An `if` statement can chain with zero or more `elif`, which reads as "else if".
 An 'elif` branch works as additional steps to evaluate the conditions and run codes accordingly.
@@ -87,7 +87,7 @@ elif x < 0:
     print("x is less than 0")
 ```
 
-### else
+### `else`
 
 An `else` branch is the catch-all situation for an `if` statement, it runs if all the previous conditions return `False`
 
@@ -133,6 +133,110 @@ BMI Classification = Overweight
 
 ## `while` statements
 
-## `for` statements
+With the `while` loop we can execute a set of statements as long as a condition is met.
+
+Let's take a look at the following example.
+
+```py
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+```
+
+**Notice that**
+
+- the `condition` to control the `while` loop is `i < 10`
+- the body of the `while` loop is also indented
+
+In plain language, the `while` loop tries to display the value of i as long as i is less than ten.
+And within each iteration of the loop, i increments by 1.
+
+::: tip
+
+It's important to change the value of some variable that has impact on the condition eventually.
+Otherwise the `while` statements would never end and become an infinite loop.
+
+Use `while` loop when we are not sure about how many times the loop shall run but we know the condition to continue.
+
+For example, a simple guessing game
+
+```py
+to_play = True
+secret = "hello"
+while to_play:
+    guess = input("what is the secret? ")
+    if secret == guess:
+        to_play = False
+        print("You've got it!")
+    else:
+        print("Wrong guess :(")
+```
+
+:::
+
+### `break`
+
+We can use `break` to stop and escape the loop.
+
+```py
+i = 0
+while i < 10:
+    if i == 5:
+        break
+    print(i)
+    i += 1
+```
+
+The loop above would only display 0 to 4 since when i equals 5, the loop terminates.
+
+### `continue`
+
+We can use `continue` to skip and continue on with the next iteration of the loop.
+
+```py
+i = 0
+while i < 10:
+    i += 1
+    if i == 5:
+        continue
+    print(i)
+```
+
+The loop above would only display all the integers from 1 to 10 except for 5 (notice the increment of i is moved to the beginning of the body). The reason is that when i equals 5, the loop jumps out current iteration (not displaying the value) and then continue on to the next, until i is no less than ten.
 
 ## Assignment 4
+
+Create a Python script named `square.py` that prompts for length of a square. The script will then display a square of the given length in the terminal.
+
+You can use any character to represent the side of a square. A sample run would look like the following
+
+```sh
+python square.py
+Enter length: 5
+*****
+*   *
+*   *
+*   *
+*****
+```
+
+::: tip
+
+The terminal only draws character row by row. To generate a square in terminal, we need to put ourself in the shoe of a terminal. Think of these questions:
+
+1. How do I draw the first row?
+2. How do I draw the next row?
+3. How do I draw the last row?
+
+By the way, the `*` operator can be applied on strings. It then duplicate that string multiple times, depending on the value on the right hand side of `*`.
+
+Say, `print("=" * 3)` would display `===`
+
+`print("Hello" * 2)` would display `HelloHello`
+
+:::
+
+## `for` statements
+
+## Assignment 5
