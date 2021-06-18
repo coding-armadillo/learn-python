@@ -239,4 +239,84 @@ Say, `print("=" * 3)` would display `===`
 
 ## `for` statements
 
+`for` is another primitive loop statement in Python. It's used to iterate over a sequence (we will talk about more date types, such as list and dictionary, in the next lesson.)
+
+First, let's see how to use `for` in a string (a string is sequence of characters).
+
+```py
+for character in "calgary":
+    print(character)
+```
+
+It iterates all the characters in the string `"calgary"` and display them line by line.
+
+We usually use the [`range()`](https://docs.python.org/3/library/functions.html#func-range) function to loop through a body of codes for a specific number of times.
+
+```py
+for i in range(5):
+    print("doing something for the", i, "time")
+```
+
+`range()` would return a sequence of numbers (loop counters). If not specified otherwise, it always starts at **0**.
+
+`range(5)` from above returns numbers 0, 1, 2, 3, 4 particularly.
+
+We can also specify the start/stop/step values of the sequence.
+
+```py
+print(list(range(10)))
+print(list(range(3, 10)))
+print(list(range(3, 10, 2)))
+print(list(range(10, -1, -1)))
+```
+
+### `break` and `continue`
+
+`break` and `continue` also works in `for` loop
+
+```py
+for j in range(1, 10):
+    if j % 2:
+        odd_or_even = "odd"
+    else:
+        odd_or_even = "even"
+    if j == 5:
+        print("skipping 5")
+        continue
+    elif j == 7:
+        print("leaving early at 7")
+        break
+    print(j, "is", odd_or_even)
+```
+
 ## Assignment 5
+
+Create a Python script named `diamond.py` that prompts for rows of a diamond, where the number of rows shall be odd. The script will then display a diamond with the given number of rows in the terminal.
+
+A sample run looks like the following.
+
+```sh
+python diamond.py
+Enter number of rows: 21
+          *
+         ***
+        *****
+       *******
+      *********
+     ***********
+    *************
+   ***************
+  *****************
+ *******************
+*********************
+ *******************
+  *****************
+   ***************
+    *************
+     ***********
+      *********
+       *******
+        *****
+         ***
+          *
+```
