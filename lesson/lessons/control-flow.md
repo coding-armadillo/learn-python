@@ -229,7 +229,7 @@ The terminal only draws character row by row. To generate a square in terminal, 
 2. How do I draw the next row?
 3. How do I draw the last row?
 
-By the way, the `*` operator can be applied on strings. It then duplicate that string multiple times, depending on the value on the right hand side of `*`.
+By the way, the `*` operator can be applied on strings. It would duplicate that string multiple times, depending on the value from the right hand side of `*`.
 
 Say, `print("=" * 3)` would display `===`
 
