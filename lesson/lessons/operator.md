@@ -13,16 +13,11 @@ next: ./comment.md
 
 ## Assignment Operator
 
-```py
-a = 1
-b = "hello"
-```
+<<< @/lesson/snippets/assignment.py
 
 We can assignment multiple variables at the same time
 
-```py
-a, b = 1, "hello"
-```
+<<< @/lesson/snippets/assignment_multiple.py
 
 ## Arithmetic operators
 
@@ -36,16 +31,7 @@ Basic arithmetic operations include:
 - exponentiation
 - floor division
 
-```py
-print(2 + 3)
-print(2 - 3)
-print(2 * 3)
-print(2 / 3)
-print(2 % 3)
-print(2 ** 3)
-print(2 // 3)
-print(3 // 2)
-```
+<<< @/lesson/snippets/arithmetic.py
 
 ::: tip
 
@@ -106,22 +92,9 @@ str(123.456)
 
 ## Comparison operators
 
-Say, we have
+Say, after setting up `x` and `y`, the comparisons are as follow:
 
-```py
-x, y = 1, 2
-```
-
-The comparisons are as follow:
-
-```py
-print(x == y)
-print(x != y)
-print(x > y)
-print(x < y)
-print(x >= y)
-print(x <= y)
-```
+<<< @/lesson/snippets/comparison.py
 
 A comparison operator always returns a boolean value (`True` / `False`).
 
@@ -129,20 +102,9 @@ A comparison operator always returns a boolean value (`True` / `False`).
 
 We use logical operators to combine booleans (conditions).
 
-If we set
+For example, after setting up `v`
 
-```py
-v = 10
-```
-
-then
-
-```py
-print(v > 2 and v < 8)
-print(v > 2 or v < 8)
-print(not v > 2)
-print(not v < 8)
-```
+<<< @/lesson/snippets/logical.py
 
 - `and` returns `True` if both booleans (conditions) are `True`
 - `or` returns `True` if at least one of booleans (conditions) is `True`
@@ -199,14 +161,7 @@ An integrated circuit consists of many logic gates and other physical components
 
 :::
 
-```py
-print(4 << 5)
-print(4 >> 2)
-print(4 & 5)
-print(4 | 5)
-print(4 ^ 5)
-print(~1)
-```
+<<< @/lesson/snippets/bitwise.py
 
 ::: warning
 
