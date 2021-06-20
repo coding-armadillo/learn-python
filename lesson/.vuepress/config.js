@@ -49,6 +49,9 @@ module.exports = {
   title: "Learn Python",
   theme: "@vuepress/theme-default",
   evergreen: true,
+  markdown: {
+    lineNumbers: true,
+  },
   themeConfig: {
     repo: "coding-armadillo/learn-python",
     editLinks: true,
