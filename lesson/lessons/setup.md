@@ -11,8 +11,14 @@ next: ./variable-and-data-types.md
 
 <TagLinks />
 
-::: tip
-Assuming we are using Windows system...
+::: tip Oh heads-up
+Assuming we are using Windows...
+:::
+
+::: warning In case you use other operation systems
+
+TBD
+
 :::
 
 ## Python

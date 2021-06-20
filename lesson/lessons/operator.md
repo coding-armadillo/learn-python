@@ -33,7 +33,7 @@ Basic arithmetic operations include:
 
 <<< @/lesson/snippets/arithmetic.py
 
-::: tip
+::: tip A shortcut
 
 We can chain the assignment operator with arithmetic operators
 
@@ -66,7 +66,7 @@ Area = 78.53975 cm²
 Circumference = 31.4159 cm
 ```
 
-::: tip
+::: tip Converting data types
 
 Since `input()` always returns a string, we need to cast the return value into a number.
 

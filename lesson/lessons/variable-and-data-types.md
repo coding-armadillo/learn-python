@@ -50,7 +50,8 @@ int_number = 5
 float_number = 5.5
 ```
 
-::: details
+::: details Python also knows about i² = -1
+
 Python also has a `complex` type to deal with complex numbers.
 
 ```py
