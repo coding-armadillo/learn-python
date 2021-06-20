@@ -51,7 +51,7 @@ These statements are to display value of `x` if `x` is greater than zero and fur
 
 What if the indentation of the third `print(z)` changes.
 
-<<< @/lesson/snippets/indent_2.py
+<<< @/lesson/snippets/indent_2.py{6}
 
 Now value of `z` will display as long as `x` is greater than zero, regardless of `y`.
 
@@ -128,7 +128,7 @@ For example, a simple guessing game
 
 We can use `break` to stop and escape the loop.
 
-<<< @/lesson/snippets/basic_while_break.py
+<<< @/lesson/snippets/basic_while_break.py{3,4}
 
 The loop above would only display 0 to 4 since when i equals 5, the loop terminates.
 
@@ -136,7 +136,7 @@ The loop above would only display 0 to 4 since when i equals 5, the loop termina
 
 We can use `continue` to skip and continue on with the next iteration of the loop.
 
-<<< @/lesson/snippets/basic_while_continue.py
+<<< @/lesson/snippets/basic_while_continue.py{4,5}
 
 The loop above would only display all the integers from 1 to 10 except for 5 (notice the increment of i is moved to the beginning of the body). The reason is that when i equals 5, the loop jumps out current iteration (not displaying the value) and then continue on to the next, until i is no less than ten.
 
