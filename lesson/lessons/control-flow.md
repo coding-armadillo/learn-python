@@ -9,6 +9,8 @@ next: false
 
 # Control Flows
 
+<TagLinks />
+
 We have learned how to use Python as a "calculator", i.e., creating variables, assigning values, and writing formulas to get an outcome.
 In this lesson, we will work on control flows to make Python handle more situations and write more complex programs.
 
@@ -18,11 +20,7 @@ In case we want to execute a block of codes only if a condition is met, `if` sta
 
 Let's take a look at the following example.
 
-```py
-a , b = 10, 100
-if b > a:
-    print("a is less than b")
-```
+<<< @/lesson/snippets/basic_if.py
 
 An `if` statement consists of at least two parts:
 
@@ -43,14 +41,7 @@ In the previous example,
 
 Here's another example.
 
-```py
-x , y, z = 10, 20, 30
-if x > 0:
-    print(x)
-    if y < 100:
-        print(y)
-        print(z)
-```
+<<< @/lesson/snippets/indent_1.py
 
 The first `print(x)` is within the `body` of `if x > 0`. It is indented by 4 spaces.
 However, the second `print(y)` and third `print(z)` are within the `body` of `if y < 100`.
@@ -60,14 +51,7 @@ These statements are to display value of `x` if `x` is greater than zero and fur
 
 What if the indentation of the third `print(z)` changes.
 
-```py
-x , y, z = 10, 200, 30
-if x > 0:
-    print(x)
-    if y < 100:
-        print(y)
-    print(z)
-```
+<<< @/lesson/snippets/indent_2.py
 
 Now value of `z` will display as long as `x` is greater than zero, regardless of `y`.
 
@@ -76,33 +60,13 @@ Now value of `z` will display as long as `x` is greater than zero, regardless of
 An `if` statement can chain with zero or more `elif`, which reads as "else if".
 An 'elif` branch works as additional steps to evaluate the conditions and run codes accordingly.
 
-```py
-x = - 10
-
-if x > 0:
-    print("x is greater than 0")
-elif x == 0:
-    print("x is 0")
-elif x < 0:
-    print("x is less than 0")
-```
+<<< @/lesson/snippets/basic_if_elif.py
 
 ### `else`
 
 An `else` branch is the catch-all situation for an `if` statement, it runs if all the previous conditions return `False`
 
-```py
-x = - 10
-
-if x > 0:
-    print("x is greater than 0")
-elif x == 0:
-    print("x is 0")
-elif x > -10:
-    print("x is less than 0 but somehow greater than -10")
-else:
-    print("x is not greater than -10")
-```
+<<< @/lesson/snippets/basic_if_elif_else.py
 
 ## Assignment 3
 
@@ -137,12 +101,7 @@ With the `while` loop we can execute a set of statements as long as a condition 
 
 Let's take a look at the following example.
 
-```py
-i = 0
-while i < 10:
-    print(i)
-    i += 1
-```
+<<< @/lesson/snippets/basic_while.py
 
 **Notice that**
 
@@ -161,17 +120,7 @@ Use `while` loop when we are not sure about how many times the loop shall run bu
 
 For example, a simple guessing game
 
-```py
-to_play = True
-secret = "hello"
-while to_play:
-    guess = input("what is the secret? ")
-    if secret == guess:
-        to_play = False
-        print("You've got it!")
-    else:
-        print("Wrong guess :(")
-```
+<<< @/lesson/snippets/guessing_game.py
 
 :::
 
@@ -179,14 +128,7 @@ while to_play:
 
 We can use `break` to stop and escape the loop.
 
-```py
-i = 0
-while i < 10:
-    if i == 5:
-        break
-    print(i)
-    i += 1
-```
+<<< @/lesson/snippets/basic_while_break.py
 
 The loop above would only display 0 to 4 since when i equals 5, the loop terminates.
 
@@ -194,14 +136,7 @@ The loop above would only display 0 to 4 since when i equals 5, the loop termina
 
 We can use `continue` to skip and continue on with the next iteration of the loop.
 
-```py
-i = 0
-while i < 10:
-    i += 1
-    if i == 5:
-        continue
-    print(i)
-```
+<<< @/lesson/snippets/basic_while_continue.py
 
 The loop above would only display all the integers from 1 to 10 except for 5 (notice the increment of i is moved to the beginning of the body). The reason is that when i equals 5, the loop jumps out current iteration (not displaying the value) and then continue on to the next, until i is no less than ten.
 
@@ -243,19 +178,13 @@ Say, `print("=" * 3)` would display `===`
 
 First, let's see how to use `for` in a string (a string is sequence of characters).
 
-```py
-for character in "calgary":
-    print(character)
-```
+<<< @/lesson/snippets/for_string.py
 
 It iterates all the characters in the string `"calgary"` and display them line by line.
 
 We usually use the [`range()`](https://docs.python.org/3/library/functions.html#func-range) function to loop through a body of codes for a specific number of times.
 
-```py
-for i in range(5):
-    print("doing something for the", i, "time")
-```
+<<< @/lesson/snippets/for_range.py
 
 `range()` would return a sequence of numbers (loop counters). If not specified otherwise, it always starts at **0**.
 
@@ -263,31 +192,13 @@ for i in range(5):
 
 We can also specify the start/stop/step values of the sequence.
 
-```py
-print(list(range(10)))
-print(list(range(3, 10)))
-print(list(range(3, 10, 2)))
-print(list(range(10, -1, -1)))
-```
+<<< @/lesson/snippets/more_range.py
 
 ### `break` and `continue`
 
 `break` and `continue` also works in `for` loop
 
-```py
-for j in range(1, 10):
-    if j % 2:
-        odd_or_even = "odd"
-    else:
-        odd_or_even = "even"
-    if j == 5:
-        print("skipping 5")
-        continue
-    elif j == 7:
-        print("leaving early at 7")
-        break
-    print(j, "is", odd_or_even)
-```
+<<< @/lesson/snippets/for_break_continue.py
 
 ## Assignment 5
 

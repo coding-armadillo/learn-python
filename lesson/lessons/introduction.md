@@ -49,14 +49,10 @@ See [PEP-20](https://www.python.org/dev/peps/pep-0020/).
 
 You can also display them from a Python Shell.
 
-```py
-import this
-```
+<<< @/lesson/snippets/pep_20.py
 
 ## Hello world program
 
-```py
-print("Hello, world!")
-```
+<<< @/lesson/snippets/hello_world.py
 
 In the following section we will learn how to setup a Python environment alongside with some useful tools for development.
