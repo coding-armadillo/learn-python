@@ -166,3 +166,9 @@ The workflow the program is as follows:
 2. Suppose we enter "Jack".
 
 3. Then, the command line displays "Hello, Jack"
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/hello.py
+
+:::

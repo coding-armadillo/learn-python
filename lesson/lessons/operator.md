@@ -90,6 +90,12 @@ str(123.456)
 
 :::
 
+::: details Sample Solution
+
+<<< @/lesson/assignments/circle.py
+
+:::
+
 ## Comparison operators
 
 Say, after setting up `x` and `y`, the comparisons are as follow:

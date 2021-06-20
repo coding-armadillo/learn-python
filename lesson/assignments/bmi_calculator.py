@@ -7,13 +7,13 @@ print("BMI =", bmi)
 
 if bmi <= 18.5:
     classification = "Underweight"
-elif bmi <= 24.99:
+elif bmi <= 25:
     classification = "Normal Weight"
-elif bmi <= 29.99:
+elif bmi <= 30:
     classification = "Overweight"
-elif bmi <= 34.99:
+elif bmi <= 35:
     classification = "Obesity (Class 1)"
-elif bmi <= 39.99:
+elif bmi <= 40:
     classification = "Obesity (Class 2)"
 else:
     classification = "Morbid Obesity"

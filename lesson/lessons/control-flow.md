@@ -95,6 +95,12 @@ BMI = 29.531611006091154
 BMI Classification = Overweight
 ```
 
+::: details Sample Solution
+
+<<< @/lesson/assignments/bmi_calculator.py
+
+:::
+
 ## `while` statements
 
 With the `while` loop we can execute a set of statements as long as a condition is met.
@@ -172,6 +178,12 @@ Say, `print("=" * 3)` would display `===`
 
 :::
 
+::: details Sample Solution
+
+<<< @/lesson/assignments/square.py
+
+:::
+
 ## `for` statements
 
 `for` is another primitive loop statement in Python. It's used to iterate over a sequence (we will talk about more date types, such as list and dictionary, in the next lesson.)
@@ -231,3 +243,9 @@ Enter number of rows: 21
          ***
           *
 ```
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/diamond.py
+
+:::
