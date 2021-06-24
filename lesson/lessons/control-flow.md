@@ -249,3 +249,121 @@ Enter number of rows: 21
 <<< @/lesson/assignments/diamond.py
 
 :::
+
+## Quote
+
+![practice-makes-perfect](https://www.azquotes.com/picture-quotes/quote-practice-makes-perfect-after-a-long-time-of-practicing-our-work-will-become-natural-bruce-lee-92-45-55.jpg)
+
+## Assignment 6
+
+Create a Python script named `triangle.py` that prompts for rows of a triangle. The script will then display a triangle with the given number of rows in the terminal.
+
+A sample run looks like the following.
+
+```sh
+python triangle.py
+Enter number of rows for the triangle: 7
+      *
+     **
+    ***
+   ****
+  *****
+ ******
+*******
+```
+
+::: details Sample Solution
+
+TBD
+
+:::
+
+## Assignment 7
+
+Create a Python script named `plus.py` that prompts for rows of a plus sign. The script will then display a plus sign with the given number of rows in the terminal.
+
+A sample run looks like the following.
+
+```sh
+python plus.py
+Enter number of rows for the plus: 11
+     *
+     *
+     *
+     *
+     *
+***********
+     *
+     *
+     *
+     *
+     *
+```
+
+::: details Sample Solution
+
+TBD
+
+:::
+
+## Assignment 8
+
+Create a Python script name `grades.py` that prompts for a percentage grade and turns it into a letter grade and 4.0 scale.
+
+You can use the following conversion table
+
+| Percent Grade | Letter Grade | 4.0 Scale |
+| ------------- | ------------ | --------- |
+| 97-100        | A+           | 4.0       |
+| 93-96         | A            | 4.0       |
+| 90-92         | A-           | 3.7       |
+| 87-89         | B+           | 3.3       |
+| 83-86         | B            | 3.0       |
+| 80-82         | B-           | 2.7       |
+| 77-79         | C+           | 2.3       |
+| 73-76         | C            | 2.0       |
+| 70-72         | C-           | 1.7       |
+| 67-69         | D+           | 1.3       |
+| 65-66         | D            | 1.0       |
+| Below 65      | F            | 0.0       |
+
+A sample run looks like the following.
+
+```sh
+python grades.py
+Enter a percentage grade: 98
+Letter Grade = A+
+4.0 Scale = 4.0
+```
+
+::: details Sample Solution
+
+TBD
+
+:::
+
+## Assignment 9
+
+Create a Python script named `odd_or_even.py` that would keep prompting for a number and tell if that number is odd or even. The script exists if the user enters a negative number.
+
+A sample run looks like the following.
+
+```sh
+python odd_or_even.py
+Enter a number: 3
+Odd number
+Enter a number: 2
+Even Number
+Enter a number: 1
+Odd number
+Enter a number: 0
+Even Number
+Enter a number: -1
+See you later!
+```
+
+::: details Sample Solution
+
+TBD
+
+:::
