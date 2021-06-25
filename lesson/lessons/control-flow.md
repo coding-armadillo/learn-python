@@ -4,7 +4,7 @@ tags:
   - Basic
   - Control Flow
 prev: ./comment.md
-next: false
+next: ./sequence-data-type.md
 ---
 
 # Control Flows
