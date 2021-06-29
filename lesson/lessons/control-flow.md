@@ -274,7 +274,7 @@ Enter number of rows for the triangle: 7
 
 ::: details Sample Solution
 
-TBD
+<<< @/lesson/assignments/triangle.py
 
 :::
 
@@ -302,7 +302,7 @@ Enter number of rows for the plus: 11
 
 ::: details Sample Solution
 
-TBD
+<<< @/lesson/assignments/plus.py
 
 :::
 
@@ -338,7 +338,7 @@ Letter Grade = A+
 
 ::: details Sample Solution
 
-TBD
+<<< @/lesson/assignments/grades.py
 
 :::
 
@@ -364,6 +364,6 @@ See you later!
 
 ::: details Sample Solution
 
-TBD
+<<< @/lesson/assignments/odd_or_even.py
 
 :::
