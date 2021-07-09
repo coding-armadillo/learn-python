@@ -163,6 +163,32 @@ print(animals.count("cat"))
 print((animals * 3).count("cat"))
 ```
 
+### list comprehension
+
+To get all letters in a string and store them in a list
+
+<<< @/lesson/snippets/get_letters_loop.py
+
+A more Pythonic way to achieve this task is as follow.
+
+<<< @/lesson/snippets/get_letters.py{1}
+
+To get all non-vowel letters in the string
+
+<<< @/lesson/snippets/get_letters_filter.py
+
+To get all odd numbers from 1 to 100
+
+```python
+print([i for i in range(1, 101) if i % 2])
+```
+
+To multiply all numbers by 5 in the list
+
+```python
+print([i * 5 for i in range(1, 101)])
+```
+
 ## Tuple
 
 `tuple` is very similar with `list` except that the items in the tuple cannot be changed.
@@ -195,3 +221,9 @@ Enter score: 99
 Enter score: 60
 Average score is 86.33333333333333
 ```
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/score_keeper.py
+
+:::
