@@ -123,7 +123,7 @@ print(games)
 ```
 
 ```python{2}
-l = [1,2,3] * 2
+l = [1, 2, 3] * 2
 l.remove(3)
 print(l)
 ```
@@ -139,7 +139,7 @@ print(animals)
 We use `insert()` to add item at a given location of the list.
 
 ```python{1}
-animals.insert(0,"guinea pig")
+animals.insert(0, "guinea pig")
 print(animals)
 ```
 
