@@ -208,8 +208,8 @@ contacts = dict(pairs)
 If we have keys and values in two separate lists, we can first generate a list of key/value pairs, then convert to dictionary.
 
 ```python
-names = ['Jack', 'Jill', 'John', 'Jane']
-numbers= ['1234567890', '4567890123', '7890123456', None]
+names = ["Jack", "Jill", "John", "Jane"]
+numbers= ["1234567890", "4567890123", "7890123456", None]
 contacts = dict(zip(names, numbers))
 ```
 
@@ -219,8 +219,8 @@ It makes an iterator that aggregates elements from each of the iterables. See [r
 
 ```python
 a = range(10)
-b = range(20, 31)
-c = range(40, 51)
+b = range(20, 30)
+c = range(40, 50)
 z = zip(a, b, c)
 print(list(z))
 ```
@@ -253,6 +253,13 @@ salaries = {
 Next, please change Bill's salary to 8500 and add another employee (emp4) to the `salaries` dictionary. emp4's name is Dora and her salary is 10000.
 
 Finally, calculate and print the total number of employees and the average salary.
+
+A sample run looks like the following.
+
+```sh
+python salaries.py
+This company has 4 employees and the average compensation is 8250.0.
+```
 
 ::: details Sample Solution
 
