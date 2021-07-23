@@ -94,7 +94,7 @@ print(games)
 
 `reverse()` is a general function of `list` that reverse the order of all items in it.
 
-We use `append()` to add a item at the end of a list.
+We use `append()` to add an item at the end of a list.
 
 ```python{1}
 games.append("Super Smash Bros.")
