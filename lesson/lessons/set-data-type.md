@@ -111,7 +111,7 @@ print(basket1)
 
 We use `update()` to add a collections of items to the list.
 
-```python
+```python{1,4}
 basket1.update({"peach", "honey melon"})
 print(basket1)
 

@@ -109,6 +109,26 @@ def smallest_number3(value1, value2, value3, **other_values):
 print(smallest_number3(10, 213, 2, value7=123, value4=928, value5=-23, value6=-7661))
 ```
 
+- Arbitrary positional arguments and keyword arguments can be used together
+
+```python
+def smallest_number4(value1, value2, value3,*other_values1, **other_values2):
+    print("value1:", value1)
+    print("value2:", value2)
+    print("value3:", value3)
+    print("other_values1:", other_values1)
+    print("other_values2:", other_values2)
+    return min(
+        [value1, value2, value3] + list(other_values1) + list(other_values2.values())
+    )
+
+print(
+    smallest_number4(
+        10, 213, 2, 2727, 23, 982, value7=123, value4=928, value5=-23, value6=-7661
+    )
+)
+```
+
 ## lambda function
 
 A lambda function is a small anonymous function. It can take any number of arguments, but can only have one statement.
