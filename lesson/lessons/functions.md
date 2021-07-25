@@ -142,3 +142,95 @@ print(add_10(0))
 multiply = lambda a, b : a*b
 print(multiply(5.5, 9.9))
 ```
+
+## Assignment 12
+
+Create a Python script named `terminal_drawing.py` that integrates the drawing functionalities in [Assignment 4](./control-flow.md#assignment-4), [Assignment 5](./control-flow.md#assignment-5), [Assignment 6](./control-flow.md#assignment-6), and [Assignment 7](./control-flow.md#assignment-7).
+
+It will prompt the user with a list of available options to create shapes in the terminal, like the following.
+
+```sh
+1: box
+2: diamond
+3: triangle
+4: plus
+Enter your selection:
+```
+
+If the user enters number 1-4, the corresponding shape will be created, with the help of extra user input to determine the size of that shape. After the shape is created, the program would allow user to make another selection.
+
+If the use enters anything other than number 1-4, the program would say "Goodbye!" and exit.
+
+::: tip
+
+Create a function for each shape, so that we can call that specific function to draw the shape upon selection.
+
+You can reuse your solutions for those assignments, with little adjustment to wrap them in the context of a function.
+
+:::
+
+A sample run looks like the following.
+
+```sh
+python terminal_drawing.py
+1: square
+2: diamond
+3: triangle
+4: plus
+Enter your selection: 1
+Enter number of rows for the square: 5
+*****
+*   *
+*   *
+*   *
+*****
+
+1: square
+2: diamond
+3: triangle
+4: plus
+Enter your selection: 2
+Enter number of rows for the diamond: 5
+  *
+ ***
+*****
+ ***
+  *
+
+1: square
+2: diamond
+3: triangle
+4: plus
+Enter your selection: 3
+Enter number of rows for the triangle: 5
+    *
+   **
+  ***
+ ****
+*****
+
+1: square
+2: diamond
+3: triangle
+4: plus
+Enter your selection: 4
+Enter number of rows for the plus: 5
+  *
+  *
+*****
+  *
+  *
+
+1: square
+2: diamond
+3: triangle
+4: plus
+Enter your selection: 6
+Goodbye!
+```
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/terminal_drawing.py
+
+:::
