@@ -30,7 +30,7 @@ For example, let's create a module file named `fibonacci.py` and define two func
 
 Then we can `import` the module and use the definitions in it.
 
-```python
+```python{1}
 import fibonacci
 
 print(fibonacci.desc)
@@ -38,7 +38,7 @@ print(fibonacci.desc)
 
 Sometimes we can use only parts of a module by the `from` keyword
 
-```python
+```python{1}
 from fibonacci import fib
 
 print(fib(100))
@@ -46,35 +46,77 @@ print(fib(100))
 
 We can rename the definitions with the `as` keyword
 
-```python
+```python{1}
 from fibonacci import use_fib as func
 
 func()
 ```
 
-## Built-in module
+## Package
 
-Python is battery-included. It comes with various modules for different use cases.
+When we group multiple modules together, we create a package. Modules can be managed in hierarchical folders for easy maintenance, with the help of `__init__.py` files.
 
-Use the `import` statement to import a module
+Python considers folders that containing the `__init__.py` file as packages. Sometimes, `__init__.py` can be empty, but it can also run initialization codes if needed.
+
+Here's the structure of a toy package.
+
+```sh
+foo
+├── __init__.py
+├── bar.py
+└── baz
+    ├── __init__.py
+    └── qux.py
+```
+
+We can import the whole package or individual modules.
 
 ```python
+import foo
+import foo.bar
+import foo.baz.qux
+```
+
+We may see usage of `from package import *`. By default, Python would all the modules in `package`.
+However, we can define `__all__` in `__init__.py` to control what should be imported.
+
+For example, when we define only "bar" in `__all__` of `foo/__init__.py`
+
+<!-- prettier-ignore -->
+<<< @/lesson/snippets/foo/__init__.py
+
+`from foo import *` would only import `bar`. `baz` will not be imported.
+
+However, you can still explicitly import `baz` and its submodules.
+
+```python
+import foo.baz
+from foo.baz import qux
+```
+
+## Built-in Packages
+
+Python is battery-included. It comes with various packages for different use cases.
+
+Use the `import` statement to import a package
+
+```python{1}
 import math
 
 print(math.pow(2, 5))
 ```
 
-To import only parts from a module, use the `from` keyword.
+To import only parts from a package, use the `from` keyword.
 
-```python
+```python{1}
 from datetime import datetime
 
 print(datetime.now())
 ```
 
-To rename when you import a module, use the `as` keyword
+To rename when we import a package, use the `as` keyword
 
-```python
+```python{1,2}
 from datetime import datetime as dt
 import math as m
 
@@ -95,7 +137,7 @@ To run it, simply
 python real_guessing_game.py
 ```
 
-The `random` module creates a real secret (random number within range 1 to 100) and you need to guess what it is.
+The `random` module creates a real secret (random number within range 1 to 100) and we need to guess what it is.
 
 ::: tip how to guess effectively?
 
