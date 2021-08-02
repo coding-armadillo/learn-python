@@ -77,7 +77,7 @@ import foo.bar
 import foo.baz.qux
 ```
 
-We may see usage of `from package import *`. By default, Python would all the modules in `package`.
+We may see usage of `from package import *`. By default, Python would not import any module in `package`.
 However, we can define `__all__` in `__init__.py` to control what should be imported.
 
 For example, when we define only "bar" in `__all__` of `foo/__init__.py`
@@ -85,7 +85,7 @@ For example, when we define only "bar" in `__all__` of `foo/__init__.py`
 <!-- prettier-ignore -->
 <<< @/lesson/snippets/foo/__init__.py
 
-`from foo import *` would only import `bar`. `baz` will not be imported.
+`from foo import *` would import `bar`.
 
 However, you can still explicitly import `baz` and its submodules.
 
