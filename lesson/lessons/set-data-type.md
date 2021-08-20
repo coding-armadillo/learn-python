@@ -4,7 +4,7 @@ tags:
   - Basic
   - Data Type
 prev: ./mapping-data-type.md
-next: ./version-control.md
+next: ./functions.md
 ---
 
 # Set Data Type

@@ -4,7 +4,7 @@ tags:
   - Basic
   - Module
 prev: ./functions.md
-next: false
+next: ./version-control.md
 ---
 
 # Modules
@@ -120,7 +120,7 @@ To rename when we import a package, use the `as` keyword
 from datetime import datetime as dt
 import math as m
 
-print(m.pow(2,5))
+print(m.pow(2, 5))
 print(dt.now())
 ```
 

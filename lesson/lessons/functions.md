@@ -3,7 +3,7 @@ title: Functions
 tags:
   - Basic
   - Function
-prev: ./version-control.md
+prev: ./set-data-type.md
 next: ./modules.md
 ---
 

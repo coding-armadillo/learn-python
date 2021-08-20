@@ -25,10 +25,10 @@ editLink: false
 
 ## Lesson 10 [Set Data Type](set-data-type.md)
 
-## Lesson 11 [Version Control](version-control.md)
+## Lesson 11 [Functions](functions.md)
 
-## Lesson 12 [Functions](functions.md)
+## Lesson 12 [Modules](modules.md)
 
-## Lesson 13 [Modules](modules.md)
+## Lesson 13 [Version Control](version-control.md)
 
 to be continued...
