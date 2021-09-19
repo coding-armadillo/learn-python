@@ -31,4 +31,6 @@ editLink: false
 
 ## Lesson 13 [Version Control](version-control.md)
 
+## Lesson 14 [A Tiny Challenge](tiny-challenge.md)
+
 to be continued...

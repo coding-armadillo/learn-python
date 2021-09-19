@@ -4,7 +4,7 @@ tags:
   - Basic
   - Version Control
 prev: ./modules.md
-next: false
+next: ./tiny-challenge.md
 ---
 
 # Version Control
