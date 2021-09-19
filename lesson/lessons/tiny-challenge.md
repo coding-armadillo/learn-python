@@ -46,6 +46,7 @@ Here's a list of resources that may be helpful to you.
 - [General Purpose Counter](https://docs.python.org/3/library/collections.html#collections.Counter)
 - [A Guide to f-string Formatting in Python](http://cis.bentley.edu/sandbox/wp-content/uploads/Documentation-on-f-strings.pdf)
 - [Concatenate a list of Strings](https://docs.python.org/3/library/stdtypes.html#str.join)
+- [Open a file for input/output](https://docs.python.org/3/library/functions.html?#open)
 
 What happens if roll the dice many more times, say 1 million times?
 
