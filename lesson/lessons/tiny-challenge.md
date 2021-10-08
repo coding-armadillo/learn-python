@@ -3,7 +3,7 @@ title: A Tiny Challenge
 tags:
   - Basic
 prev: ./version-control.md
-next: ./tiny-challenge.md
+next: ./turtle.md
 ---
 
 # A Tiny Challenge

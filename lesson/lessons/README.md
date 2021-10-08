@@ -33,4 +33,6 @@ editLink: false
 
 ## Lesson 14 [A Tiny Challenge](tiny-challenge.md)
 
+## Lesson 15 [The turtle library](turtle.md)
+
 to be continued...
