@@ -285,11 +285,21 @@ t.home()
 
 Create a Python script named `turtle_square.py` which draws a red square with length of 100.
 
-Note: add `turtle.done` at the end of script so that the canvas won't close automatically.
+::: tip Canvas closing too soon?
+
+Add `turtle.done()` at the end of script so that the canvas won't close automatically.
+
+:::
 
 The drawing would look like as below.
 
 ![](./images/turtle-square.png)
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/turtle_square.py
+
+:::
 
 ## Assignment 16
 
@@ -298,6 +308,12 @@ Create a Python script named `turtle_triangle.py` which draws a green triangle w
 The drawing would look like as below.
 
 ![](./images/turtle-triangle.png)
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/turtle_triangle.py
+
+:::
 
 ## Assignment 17
 
@@ -309,3 +325,9 @@ Also show the winner at the title bar when the race ends.
 The drawing would look like as below on completion.
 
 ![](./images/turtle-race.png)
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/turtle_race.py
+
+:::
