@@ -4,7 +4,7 @@ tags:
   - Basic
   - turtle
 prev: ./tiny-challenge.md
-next: null
+next: ./another-challenge.md
 ---
 
 # The turtle library

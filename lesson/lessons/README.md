@@ -35,4 +35,6 @@ editLink: false
 
 ## Lesson 15 [The turtle library](turtle.md)
 
+## Lesson 16 [Another Challenge](another-challenge.md)
+
 to be continued...
