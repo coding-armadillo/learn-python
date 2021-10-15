@@ -23,7 +23,7 @@ def area(a, b, c):
     return sqrt(p * (p - a) * (p - b) * (p - c))
 
 
-with open("triangles.csv", "w") as f:
+with open("triangles.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerow(["a", "b", "c", "area"])
     writer.writerows([[a, b, c, area(a, b, c)] for a, b, c in triangles])
