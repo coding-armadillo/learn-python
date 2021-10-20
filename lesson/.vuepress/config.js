@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    "@snowdog/vuepress-plugin-pdf-export",
     "@vuepress/back-to-top",
     [
       "@mr-hope/copy-code",
