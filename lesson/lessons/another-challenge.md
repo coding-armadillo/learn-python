@@ -4,7 +4,7 @@ tags:
   - Basic
   - CSV
 prev: ./turtle.md
-next: ./make-executable.md
+next: ./make-executables.md
 ---
 
 # Another Challenge
