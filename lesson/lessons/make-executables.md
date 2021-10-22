@@ -21,7 +21,7 @@ It's worth noting that Pyinstaller can compile to a single executable file, when
 
 ## Getting started
 
-First, we need to install Pyinstaller from PyPI
+First, we need to install `Pyinstaller` from PyPI
 
 ```sh
 pip install pyinstaller
@@ -40,3 +40,7 @@ As mentioned above, if we prefer single executable file, include the `--onefile`
 ```sh
 pyinstaller script.py --onefile
 ```
+
+## Assignment 21
+
+Use `Pyinstaller` to make your solution to [Assignment 20](./another-challenge.md#assignment-20)) an executable.
