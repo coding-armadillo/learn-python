@@ -37,4 +37,6 @@ editLink: false
 
 ## Lesson 16 [Another Challenge](another-challenge.md)
 
+## Lesson 17 [How to Make Executables](make-executables.md)
+
 to be continued...
