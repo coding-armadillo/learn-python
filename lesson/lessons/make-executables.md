@@ -15,7 +15,7 @@ We can use [Pyinstaller](https://www.pyinstaller.org) to package Python scripts 
 
 ::: tip More
 
-It's worth noting that Pyinstaller can compile to a single executable file, when `--onefile` option is chosen. Also on which OS it is run, it makes matching executable, i.e. .exe when run on Windows
+It's worth noting that `Pyinstaller` can compile to a single executable file, when `--onefile` option is chosen. Also on which OS it is run, it makes matching executable, i.e. .exe when run on Windows
 
 :::
 
@@ -33,7 +33,7 @@ Then, go to the script folder and run
 pyinstaller script.py
 ```
 
-The bundle will be generated in a folde called `dist`.
+The bundle will be generated in a folder called `dist`.
 
 As mentioned above, if we prefer single executable file, include the `--onefile` option.
 
