@@ -64,4 +64,10 @@ assert is_valid("{[]}") is True
 
 You can include more test cases if you prefer.
 
+::: details Sample Solution
+
+<<< @/lesson/assignments/valid_parentheses.py
+
+:::
+
 If you like these types of challenge, feel free to register an account and practice on your own. There's another famous similar site, [HackerRank](https://www.hackerrank.com/).
