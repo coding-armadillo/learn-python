@@ -4,7 +4,7 @@ tags:
   - Basic
   - Pyinstaller
 prev: ./another-challenge.md
-next: null
+next: ./coding-challenge.md
 ---
 
 # How to Make Executables

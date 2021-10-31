@@ -39,4 +39,6 @@ editLink: false
 
 ## Lesson 17 [How to Make Executables](make-executables.md)
 
+## Lesson 18 [Coding Challenge](coding-challenge.md)
+
 to be continued...
