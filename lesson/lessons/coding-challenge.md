@@ -71,3 +71,76 @@ You can include more test cases if you prefer.
 :::
 
 If you like these types of challenge, feel free to register an account and practice on your own. There's another famous similar site, [HackerRank](https://www.hackerrank.com/).
+
+## Assignment 23
+
+Create a script named `undo.py`. And copy/paste the following content. Finish the five functions (`add`, `subtract`, `multiply`, `divide`, and `undo`) so that the script would pass the assertions.
+
+```python{5,10,15,20,25}
+value = 0
+stack = []
+
+
+def add(x):
+    global value
+    pass
+
+
+def subtract(x):
+    global value
+    pass
+
+
+def multiply(x):
+    global value
+    pass
+
+
+def divide(x):
+    global value
+    pass
+
+
+def undo():
+    global value
+    pass
+
+
+assert value == 0
+
+add(1)
+assert value == 1
+
+add(2)
+assert value == 3
+
+undo()
+assert value == 1
+
+subtract(1)
+assert value == 0
+
+subtract(2)
+assert value == -2
+
+multiply(2)
+assert value == -4
+
+undo()
+assert value == -2
+
+undo()
+assert value == 0
+
+add(10)
+assert value == 10
+
+divide(2)
+assert value == 5
+
+divide(5)
+assert value == 1
+
+undo()
+assert value == 5
+```
