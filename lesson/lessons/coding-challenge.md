@@ -144,3 +144,11 @@ assert value == 1
 undo()
 assert value == 5
 ```
+
+You can include more test cases if you prefer.
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/undo.py
+
+:::
