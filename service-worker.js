@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "f230b095778139e51d360ae03184b073"
+    "revision": "385be157dc09379ebbe937bda49ecaaf"
   },
   {
     "url": "assets/css/0.styles.56831745.css",
@@ -246,8 +246,8 @@ self.__precacheManifest = [
     "revision": "59be79ffc5cf884db4fe4c6cef16178a"
   },
   {
-    "url": "assets/js/app.67d5ab55.js",
-    "revision": "1a725ec13b489ea606ec62da5eb46e37"
+    "url": "assets/js/app.cecb3567.js",
+    "revision": "1ca7a23bb2f983344710641945c508aa"
   },
   {
     "url": "icons/apple-touch-icon-152x152.png",
@@ -263,83 +263,83 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "48db9059c051d670a35b19979333308f"
+    "revision": "6b667b9a0383d013d55ccadfbe908b6f"
   },
   {
     "url": "lessons/another-challenge.html",
-    "revision": "a21aa23dcc68a049429b9a6a21a7c538"
+    "revision": "696ebdaa0a59d14c7bfd8553134f8eb9"
   },
   {
     "url": "lessons/coding-challenge.html",
-    "revision": "d85467f235f6331289252d104ae3f7a9"
+    "revision": "8a1886c9c58218a3540057167bf048a8"
   },
   {
     "url": "lessons/comment.html",
-    "revision": "485653a54573db5717dc80fc549cf3d1"
+    "revision": "dc7d3d27a4269f57deb47dcd7ffc0190"
   },
   {
     "url": "lessons/control-flow.html",
-    "revision": "8d1005426bb22213772184cfdc61069e"
+    "revision": "79c0cbccd6652e47126674ffb7432858"
   },
   {
     "url": "lessons/functions.html",
-    "revision": "0101c1f97873b91322bc2c48ace718a5"
+    "revision": "e350a0ffff5555bbef94f64715e2d5a3"
   },
   {
     "url": "lessons/index.html",
-    "revision": "db2e6bb167a362f4e5ad15383dadc8ba"
+    "revision": "507c046dc1069e404e78e51fc67cf4e5"
   },
   {
     "url": "lessons/introduction.html",
-    "revision": "fc46633a797822190ab6f556411de4a7"
+    "revision": "d018296f6ec4d0f4f8be0efaa33bc13d"
   },
   {
     "url": "lessons/make-executables.html",
-    "revision": "ab1567fcf637d565ebf9b4ac56a6e6f3"
+    "revision": "5664c8219f972020a89a9cab38ab64ca"
   },
   {
     "url": "lessons/mapping-data-type.html",
-    "revision": "d788ede6b3f93eea8c58d1995b7f9fd1"
+    "revision": "e8fa43862df9e66057959ff27d47047a"
   },
   {
     "url": "lessons/modules.html",
-    "revision": "00a8ccc5059928c27eba59b2ea97fd5c"
+    "revision": "48c15eeb3d496cf4e4fb739dc0f11323"
   },
   {
     "url": "lessons/operator.html",
-    "revision": "aa5c7120910eddcc61571dcdb42b2f8e"
+    "revision": "fa91181749b5e262535da228167cace5"
   },
   {
     "url": "lessons/script.html",
-    "revision": "7968525771cb62ff66a91f63bae3d80e"
+    "revision": "71ddefba0d6490d111a730521bd58502"
   },
   {
     "url": "lessons/sequence-data-type.html",
-    "revision": "d41c7ef8f6cc27c400f4fff76dc77ce9"
+    "revision": "ef1f761f90b77e6561b04f6f8df835d2"
   },
   {
     "url": "lessons/set-data-type.html",
-    "revision": "f11e9e333955b22de8771640e45a82fb"
+    "revision": "62b2ea47233f0535c6aaefa7d1381443"
   },
   {
     "url": "lessons/setup.html",
-    "revision": "59b31ccd8ab8d9fbeb42ff04c496b58c"
+    "revision": "b696d73c77ba01e8bc65b524c32e9a88"
   },
   {
     "url": "lessons/tiny-challenge.html",
-    "revision": "dd999c0b5ad442f6a7cb5778f19b3b18"
+    "revision": "37500768dbe21e44ace140108ecb6fbc"
   },
   {
     "url": "lessons/turtle.html",
-    "revision": "35f2ec3d55964bed6099b0fcc3491544"
+    "revision": "0118268c9fc1f5af825d0491e06f77c5"
   },
   {
     "url": "lessons/variable-and-data-types.html",
-    "revision": "16fa611dcee7aac1681c5ddbcaac272d"
+    "revision": "035bedd24f64e19c12b154bfd8f6c876"
   },
   {
     "url": "lessons/version-control.html",
-    "revision": "74f0ef157973d35a9f4074efc3bb4af7"
+    "revision": "758466750b78315a5e046068f2dd5eed"
   },
   {
     "url": "logo.png",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tags.html",
-    "revision": "884d23b40ec93206b7a873eaf1ec41fd"
+    "revision": "7956c4a86a9e7e288da2b94409bb1a64"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
