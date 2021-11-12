@@ -41,4 +41,6 @@ editLink: false
 
 ## Lesson 18 [Coding Challenge](coding-challenge.md)
 
+## Lesson 19 [Classes and Objects](classes-objects.md)
+
 to be continued...

@@ -3,7 +3,7 @@ title: Coding Challenge
 tags:
   - Coding Challenge
 prev: ./make-executables.md
-next: null
+next: ./classes-objects.md
 ---
 
 # Coding Challenge
