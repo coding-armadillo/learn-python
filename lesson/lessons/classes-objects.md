@@ -114,6 +114,14 @@ print(str(apple))
 
 ### The object methods
 
+We can define custom functions that belong to the object and thus have access to the internal properties.
+
+Say, we are to create `charge()` and `use()` functions for each `Laptop` object:
+
+1. `charge()` takes in one argument to represent minutes of charge, and for every **5** minutes of charge the battery level would increase by 1. Print a message if the battery is fully charged and states the minutes used for charging.
+
+2. `use()` takes in one argument to represent minutes of use, and for every **10** minutes of use the battery level would decrease by 1.
+
 ```python
 class Laptop:
     def __init__(self, brand, color):
@@ -152,6 +160,12 @@ dell.use(10000)
 print(dell)
 print(str(apple))
 ```
+
+::: tip Question
+
+How would you modify the `use()` function so that it prints a message if battery runs out?
+
+:::
 
 ## Assignment 24
 
@@ -204,3 +218,9 @@ assert calculator.value == 2
 calculator.undo()
 assert calculator.value == 10
 ```
+
+::: details Sample Solution
+
+<<< @/lesson/assignments/calculator.py
+
+:::
