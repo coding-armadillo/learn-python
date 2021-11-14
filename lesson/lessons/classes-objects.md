@@ -42,7 +42,75 @@ To understand the meaning of classes we have to understand the built-in `__init_
 
 All classes have a function called `__init__()`, which is always executed when the class is being initiated.
 
+Usually we initialize the properties of an object in the `__init__()` function.
+
+For instance, we have a `Laptop` class. For every `Laptop` object, the initial battery level is set to 60%.
+
+```python{3}
+class Laptop:
+    def __init__(self):
+        self.battery_level = 60
+```
+
+In convention the argument `self` represents the instance of the class. We can access the attributes and methods of the class by referencing `self`.
+Line 3 from the example above defines the `battery_level` property of a `Laptop` object.
+
 ### Create an object
+
+We can use the class `Laptop` to create an object.
+
+```python
+laptop = Laptop()
+print(laptop.battery_level)
+```
+
+### The constructor function cont'd
+
+In fact, we can modify the `__init__()` so that it takes multiple arguments to configure the initial values for a `Laptop` object.
+
+Say, we want to define the brand and color properties.
+In this case we need to provide `brand` and `color` when we create the `Laptop` object.
+Therefore we can access those properties afterwards.
+
+```python
+class Laptop:
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
+        self.battery_level = 60
+
+dell = Laptop("dell", "silver")
+apple = Laptop("apple", "grey")
+
+print(dell.brand, dell.color)
+print(apple.brand, apple.color)
+```
+
+### The \_\_str\_\_ function
+
+In Python the `__str__()` function represents the class objects as a string. It is called when we try to `print()` or cast the object to string (`str()`).
+
+We can define our own way to represent a `Laptop` object.
+
+```python{7-11,16,17}
+class Laptop:
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
+        self.battery_level = 60
+
+    def __str__(self):
+        return (
+            f"This is a {self.color} {self.brand.capitalize()} laptop"
+            f" with {self.battery_level:.2f}% of battery"
+        )
+
+dell = Laptop("dell", "silver")
+apple = Laptop("apple", "grey")
+
+print(dell)
+print(str(apple))
+```
 
 ### The object methods
 
