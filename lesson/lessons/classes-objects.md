@@ -20,17 +20,13 @@ A `class` is like an object constructor, or a guideline for creating objects.
 [According to wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming):
 
 > Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
-
 > A feature of objects is that an object's own procedures can access and often modify the data fields of itself. In OOP, computer programs are designed by making them out of objects that interact with one another.
 
 ## Python class
 
 To create a class, use the keyword `class`:
 
-```python
-class Empty:
-    pass
-```
+<<< @/lesson/snippets/class_empty.py
 
 We just create a class named `Empty` that has nothing (no properties) and does nothing (no methods).
 
@@ -46,11 +42,7 @@ Usually we initialize the properties of an object in the `__init__()` function.
 
 For instance, we have a `Laptop` class. For every `Laptop` object, the initial battery level is set to 60%.
 
-```python{3}
-class Laptop:
-    def __init__(self):
-        self.battery_level = 60
-```
+<<< @/lesson/snippets/class_laptop_1.py{3}
 
 In convention the argument `self` represents the instance of the class. We can access the attributes and methods of the class by referencing `self`.
 Line 3 from the example above defines the `battery_level` property of a `Laptop` object.
@@ -72,19 +64,7 @@ Say, we want to define the brand and color properties.
 In this case we need to provide `brand` and `color` when we create the `Laptop` object.
 Therefore we can access those properties afterwards.
 
-```python
-class Laptop:
-    def __init__(self, brand, color):
-        self.brand = brand
-        self.color = color
-        self.battery_level = 60
-
-dell = Laptop("dell", "silver")
-apple = Laptop("apple", "grey")
-
-print(dell.brand, dell.color)
-print(apple.brand, apple.color)
-```
+<<< @/lesson/snippets/class_laptop_2.py{2-4,11,12}
 
 ### The \_\_str\_\_ function
 
@@ -92,25 +72,7 @@ In Python the `__str__()` function represents the class objects as a string. It 
 
 We can define our own way to represent a `Laptop` object.
 
-```python{7-11,16,17}
-class Laptop:
-    def __init__(self, brand, color):
-        self.brand = brand
-        self.color = color
-        self.battery_level = 60
-
-    def __str__(self):
-        return (
-            f"This is a {self.color} {self.brand.capitalize()} laptop"
-            f" with {self.battery_level:.2f}% of battery"
-        )
-
-dell = Laptop("dell", "silver")
-apple = Laptop("apple", "grey")
-
-print(dell)
-print(str(apple))
-```
+<<< @/lesson/snippets/class_laptop_3.py{7-11,17,18}
 
 ### The object methods
 
@@ -122,44 +84,7 @@ Say, we are to create `charge()` and `use()` functions for each `Laptop` object:
 
 2. `use()` takes in one argument to represent minutes of use, and for every **10** minutes of use the battery level would decrease by 1.
 
-```python
-class Laptop:
-    def __init__(self, brand, color):
-        self.brand = brand
-        self.color = color
-        self.battery_level = 60
-
-    def __str__(self):
-        return (
-            f"This is a {self.color} {self.brand.capitalize()} laptop"
-            f" with {self.battery_level:.2f}% of battery"
-        )
-
-    def charge(self, minutes):
-        previous_battery_level = self.battery_level
-        self.battery_level = min(100, self.battery_level + minutes/5)
-        if self.battery_level == 100:
-            print(
-                "Battery is fully charged, taking",
-                (100 - previous_battery_level) * 5,
-                "minutes"
-            )
-
-    def use(self, minutes):
-        self.battery_level = max(0, self.battery_level - minutes/10)
-
-dell = Laptop("dell", "silver")
-apple = Laptop("apple", "grey")
-
-apple.charge(5)
-dell.charge(20000)
-
-apple.use(60)
-dell.use(10000)
-
-print(dell)
-print(str(apple))
-```
+<<< @/lesson/snippets/class_laptop_4.py{23,24}
 
 ::: tip Question
 
