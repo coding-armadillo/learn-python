@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "31115e1a5d27abb68c19f86a0990c27c"
+    "revision": "56437411549b59b3b774068fb57d3eee"
   },
   {
     "url": "assets/css/0.styles.56831745.css",
@@ -142,16 +142,16 @@ self.__precacheManifest = [
     "revision": "5d1969eebc3b5956d1471478393ac2e8"
   },
   {
-    "url": "assets/js/14.a1deadca.js",
-    "revision": "918606f27f985a6209e88713cb3ad2b3"
+    "url": "assets/js/14.d34f8263.js",
+    "revision": "a8e4f0560581a8d9512744714ce2ff1d"
   },
   {
-    "url": "assets/js/15.7ad24fb6.js",
-    "revision": "6f67f9cd8d205dd0095c023a847c83ae"
+    "url": "assets/js/15.aa8fa3ba.js",
+    "revision": "e0394c508c5ef72385e28a236c9018f1"
   },
   {
-    "url": "assets/js/16.c455ad5e.js",
-    "revision": "f7dfe4c3769fb368766865e4fd5bed83"
+    "url": "assets/js/16.1a08835d.js",
+    "revision": "c2d3fd119614847cb53e3a61be989132"
   },
   {
     "url": "assets/js/17.0aed84ba.js",
@@ -166,7 +166,7 @@ self.__precacheManifest = [
     "revision": "de127c5fac4d0adb5d913b205067bb9b"
   },
   {
-    "url": "assets/js/2.5841a18f.js",
+    "url": "assets/js/2.8f21abc3.js",
     "revision": "79ed7f2502a8546be22602e96bb282a5"
   },
   {
@@ -218,40 +218,40 @@ self.__precacheManifest = [
     "revision": "86db5e4383e4250c9e7233501ed2922b"
   },
   {
-    "url": "assets/js/31.6f967c89.js",
-    "revision": "a0423ff78f7da6fd5392349294d97f7a"
+    "url": "assets/js/31.4e6bb8cb.js",
+    "revision": "2007b5cfa8e6ddbb4aea94fd34f6dfed"
   },
   {
     "url": "assets/js/32.0ef1c68f.js",
     "revision": "c05c90834965d3f8c0167000cb54ba18"
   },
   {
-    "url": "assets/js/4.36f4d332.js",
+    "url": "assets/js/4.3fbbb536.js",
     "revision": "6f7baf63f5317675cd8df9d7489c9310"
   },
   {
-    "url": "assets/js/5.02118af0.js",
+    "url": "assets/js/5.da9de97f.js",
     "revision": "26cb3cb28dd6374ede4fdc88bc619816"
   },
   {
-    "url": "assets/js/6.0cc7b23e.js",
+    "url": "assets/js/6.9f24a3bc.js",
     "revision": "76df63db17ae2365d1188aa8a5fd883d"
   },
   {
-    "url": "assets/js/7.30cee585.js",
+    "url": "assets/js/7.247fd765.js",
     "revision": "abdcf08181eea9293063fcec528f68c0"
   },
   {
-    "url": "assets/js/8.e5b244d7.js",
+    "url": "assets/js/8.e723193c.js",
     "revision": "338271bc8dba72f0121734de95be35c1"
   },
   {
-    "url": "assets/js/9.68dea4de.js",
-    "revision": "cb85579c21d2cede36ba4e8fb4ce1673"
+    "url": "assets/js/9.2d80030a.js",
+    "revision": "cecc13a7b00ef3ead61e79374c96bb3a"
   },
   {
-    "url": "assets/js/app.0e8b1a79.js",
-    "revision": "9f9f19c67af9f31254bae889c95f63a5"
+    "url": "assets/js/app.3d279a40.js",
+    "revision": "74d3df1071559d17004b16066d0baf36"
   },
   {
     "url": "icons/apple-touch-icon-152x152.png",
@@ -267,87 +267,87 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "98d223adad9954dcd942fe94b1d2a080"
+    "revision": "00e59c9512081793833e5802b9a5c302"
   },
   {
     "url": "lessons/another-challenge.html",
-    "revision": "e3a5a4f41e20eb78d9d431773a6f1417"
+    "revision": "1280ecb24acbc6b0c0f310d0d9a70c5a"
   },
   {
     "url": "lessons/classes-objects.html",
-    "revision": "566407cb7134638251a02db84ea8388c"
+    "revision": "c55a2739e06e6a9f8fcbc2397d5ea036"
   },
   {
     "url": "lessons/coding-challenge.html",
-    "revision": "29857aca7eae706b643561475a312304"
+    "revision": "cb3b18fbd35636d3a98c889ebc81af87"
   },
   {
     "url": "lessons/comment.html",
-    "revision": "5c82177541fe1aecfc43302c4eec6d77"
+    "revision": "3875711d72bfc726defcaedfa8fd5514"
   },
   {
     "url": "lessons/control-flow.html",
-    "revision": "8894f0a56f5cc9e5d12a51dfe7d8906e"
+    "revision": "fc5f68c259ea4259104f8475a7eb9afb"
   },
   {
     "url": "lessons/functions.html",
-    "revision": "303e0e3da0a6125074d6d97d99dfe832"
+    "revision": "19e50e8b86fcb026ebf374fc86d3616e"
   },
   {
     "url": "lessons/index.html",
-    "revision": "bef4fa2483fbe9e7b59ef06556f14cf3"
+    "revision": "d89020d3f884105db13cb8075dc845b0"
   },
   {
     "url": "lessons/introduction.html",
-    "revision": "75f901c654f93210226100a8aa1fa032"
+    "revision": "66321e63589a4c8e9f63dac4b97bc594"
   },
   {
     "url": "lessons/make-executables.html",
-    "revision": "52316fcf2f4d15719dd0a9cda6c49ec5"
+    "revision": "5d8b217136ee3de1ac99afa571f75e1d"
   },
   {
     "url": "lessons/mapping-data-type.html",
-    "revision": "ebfd215706342c4851f539262bb59e79"
+    "revision": "5f3dfe1248407b281cd697aabc8e2ef0"
   },
   {
     "url": "lessons/modules.html",
-    "revision": "9b65331a4e8a1a55d9d76126c4ca3d7c"
+    "revision": "fb66afcefe36e4d73c87748d728cab87"
   },
   {
     "url": "lessons/operator.html",
-    "revision": "33c655fe9f4dd4785b3916c8cada9344"
+    "revision": "650cc207b46b46e3f8eaab1e8f378182"
   },
   {
     "url": "lessons/script.html",
-    "revision": "45ad1c88b895ea6deccd9d15e7f44b30"
+    "revision": "3796afcbe30e23e0860ab85e4ca9f095"
   },
   {
     "url": "lessons/sequence-data-type.html",
-    "revision": "a6b6925c2ba1594c923dc13d01c0039c"
+    "revision": "2d8fb924a6acc2601b054d7629d4d465"
   },
   {
     "url": "lessons/set-data-type.html",
-    "revision": "e26f92f51f5579133424642adabf1941"
+    "revision": "c36ae9f7ce10929f6e682997aa0b777b"
   },
   {
     "url": "lessons/setup.html",
-    "revision": "f9715b2beeef750f84b1acbf5c90a930"
+    "revision": "e846986b9297c5a606c5c7c57afb2289"
   },
   {
     "url": "lessons/tiny-challenge.html",
-    "revision": "a1b8b6f41fa50dd504ab6c990e88b84a"
+    "revision": "bf689bc085f33f260286db325ce2e46d"
   },
   {
     "url": "lessons/turtle.html",
-    "revision": "97cf2b02b5a9b1b4b424466c3532ce89"
+    "revision": "392dfd922fe804c6bd9a4cb885758093"
   },
   {
     "url": "lessons/variable-and-data-types.html",
-    "revision": "9e720acbfecd30162690dd305ab364a3"
+    "revision": "eebe0bf05ba01324534a896176b5e690"
   },
   {
     "url": "lessons/version-control.html",
-    "revision": "fe362552558447df2eef8b8934115c6b"
+    "revision": "d523a7b526806e282fd56859cfe7ccda"
   },
   {
     "url": "logo.png",
@@ -355,7 +355,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tags.html",
-    "revision": "908b95661e064b67645e0760e1434ef3"
+    "revision": "f08acc63ce54214e21d25c17b8faa482"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
