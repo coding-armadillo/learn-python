@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "56437411549b59b3b774068fb57d3eee"
+    "revision": "312003980b7b540d0728fd9b8bd4a60b"
   },
   {
     "url": "assets/css/0.styles.56831745.css",
@@ -142,16 +142,16 @@ self.__precacheManifest = [
     "revision": "5d1969eebc3b5956d1471478393ac2e8"
   },
   {
-    "url": "assets/js/14.d34f8263.js",
-    "revision": "a8e4f0560581a8d9512744714ce2ff1d"
+    "url": "assets/js/14.a1deadca.js",
+    "revision": "918606f27f985a6209e88713cb3ad2b3"
   },
   {
-    "url": "assets/js/15.aa8fa3ba.js",
-    "revision": "e0394c508c5ef72385e28a236c9018f1"
+    "url": "assets/js/15.7ad24fb6.js",
+    "revision": "6f67f9cd8d205dd0095c023a847c83ae"
   },
   {
-    "url": "assets/js/16.1a08835d.js",
-    "revision": "c2d3fd119614847cb53e3a61be989132"
+    "url": "assets/js/16.c455ad5e.js",
+    "revision": "f7dfe4c3769fb368766865e4fd5bed83"
   },
   {
     "url": "assets/js/17.0aed84ba.js",
@@ -218,8 +218,8 @@ self.__precacheManifest = [
     "revision": "86db5e4383e4250c9e7233501ed2922b"
   },
   {
-    "url": "assets/js/31.4e6bb8cb.js",
-    "revision": "2007b5cfa8e6ddbb4aea94fd34f6dfed"
+    "url": "assets/js/31.6f967c89.js",
+    "revision": "a0423ff78f7da6fd5392349294d97f7a"
   },
   {
     "url": "assets/js/32.0ef1c68f.js",
@@ -246,12 +246,12 @@ self.__precacheManifest = [
     "revision": "338271bc8dba72f0121734de95be35c1"
   },
   {
-    "url": "assets/js/9.2d80030a.js",
-    "revision": "cecc13a7b00ef3ead61e79374c96bb3a"
+    "url": "assets/js/9.68dea4de.js",
+    "revision": "cb85579c21d2cede36ba4e8fb4ce1673"
   },
   {
-    "url": "assets/js/app.3d279a40.js",
-    "revision": "74d3df1071559d17004b16066d0baf36"
+    "url": "assets/js/app.c58660df.js",
+    "revision": "ff06190ec458747c3f6ebe77ad4e823c"
   },
   {
     "url": "icons/apple-touch-icon-152x152.png",
@@ -267,87 +267,87 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "00e59c9512081793833e5802b9a5c302"
+    "revision": "a0db8f0aa8a4d1f3a6b7293900a8d237"
   },
   {
     "url": "lessons/another-challenge.html",
-    "revision": "1280ecb24acbc6b0c0f310d0d9a70c5a"
+    "revision": "f051c42797289184d441517c20fff520"
   },
   {
     "url": "lessons/classes-objects.html",
-    "revision": "c55a2739e06e6a9f8fcbc2397d5ea036"
+    "revision": "0327a9b3337a47ed663d92f672a6c200"
   },
   {
     "url": "lessons/coding-challenge.html",
-    "revision": "cb3b18fbd35636d3a98c889ebc81af87"
+    "revision": "d106c12aca2904bdbaf6206ee222427d"
   },
   {
     "url": "lessons/comment.html",
-    "revision": "3875711d72bfc726defcaedfa8fd5514"
+    "revision": "8dc1b4a1a7a791dc8fb3eae35139e72b"
   },
   {
     "url": "lessons/control-flow.html",
-    "revision": "fc5f68c259ea4259104f8475a7eb9afb"
+    "revision": "5a589518525800261fbfd20e0da0adb7"
   },
   {
     "url": "lessons/functions.html",
-    "revision": "19e50e8b86fcb026ebf374fc86d3616e"
+    "revision": "0cec31ae9e31f6c03d631a104019a86d"
   },
   {
     "url": "lessons/index.html",
-    "revision": "d89020d3f884105db13cb8075dc845b0"
+    "revision": "eac4065630d75edba6c489bcba40c4bf"
   },
   {
     "url": "lessons/introduction.html",
-    "revision": "66321e63589a4c8e9f63dac4b97bc594"
+    "revision": "f323e14f221e67746710313abeae0424"
   },
   {
     "url": "lessons/make-executables.html",
-    "revision": "5d8b217136ee3de1ac99afa571f75e1d"
+    "revision": "44c32717a1c65e9fe2962ca4f499d29f"
   },
   {
     "url": "lessons/mapping-data-type.html",
-    "revision": "5f3dfe1248407b281cd697aabc8e2ef0"
+    "revision": "472ef53fe6e565447e05bc814846ca70"
   },
   {
     "url": "lessons/modules.html",
-    "revision": "fb66afcefe36e4d73c87748d728cab87"
+    "revision": "f84e025bef1c5ebf0dddacb4378e8e07"
   },
   {
     "url": "lessons/operator.html",
-    "revision": "650cc207b46b46e3f8eaab1e8f378182"
+    "revision": "c5d60c11e1e6891d7e4778ad31657546"
   },
   {
     "url": "lessons/script.html",
-    "revision": "3796afcbe30e23e0860ab85e4ca9f095"
+    "revision": "8721c2e6af82fb9f1fdd3e83858a50f8"
   },
   {
     "url": "lessons/sequence-data-type.html",
-    "revision": "2d8fb924a6acc2601b054d7629d4d465"
+    "revision": "d6224d507cc69c004730aae05ab7f92e"
   },
   {
     "url": "lessons/set-data-type.html",
-    "revision": "c36ae9f7ce10929f6e682997aa0b777b"
+    "revision": "617c1c1e2c6cc2e8f8dbf476890db614"
   },
   {
     "url": "lessons/setup.html",
-    "revision": "e846986b9297c5a606c5c7c57afb2289"
+    "revision": "ca6b2576d910f2cbf6c18e1a668d9ada"
   },
   {
     "url": "lessons/tiny-challenge.html",
-    "revision": "bf689bc085f33f260286db325ce2e46d"
+    "revision": "2120a942028663dd44fb7019418e16e1"
   },
   {
     "url": "lessons/turtle.html",
-    "revision": "392dfd922fe804c6bd9a4cb885758093"
+    "revision": "6376eeccbf9c457019f5189324426f07"
   },
   {
     "url": "lessons/variable-and-data-types.html",
-    "revision": "eebe0bf05ba01324534a896176b5e690"
+    "revision": "510366aa29319280a76ebfa73a289fec"
   },
   {
     "url": "lessons/version-control.html",
-    "revision": "d523a7b526806e282fd56859cfe7ccda"
+    "revision": "c41008da9143ea0d85993ffd0ea42fef"
   },
   {
     "url": "logo.png",
@@ -355,7 +355,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tags.html",
-    "revision": "f08acc63ce54214e21d25c17b8faa482"
+    "revision": "cfc3a76f6a2e999fc2ff3cd095923748"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
