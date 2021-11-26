@@ -4,7 +4,7 @@ tags:
   - Object-oriented Programming
   - Class
 prev: ./coding-challenge.md
-next: null
+next: ./virtual-env.md
 ---
 
 # Python Classes and Objects

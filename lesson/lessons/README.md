@@ -43,4 +43,6 @@ editLink: false
 
 ## Lesson 19 [Classes and Objects](classes-objects.md)
 
+## Lesson 20 [Virtual Environment](virtual-env.md)
+
 to be continued...
