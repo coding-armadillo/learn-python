@@ -20,15 +20,16 @@ class Calculator:
         self.stack.append(("divide", value))
 
     def undo(self):
-        operation, value = self.stack.pop()
-        if operation == "add":
-            self.value -= value
-        elif operation == "subtract":
-            self.value += value
-        elif operation == "multiply":
-            self.value /= value
-        elif operation == "divide":
-            self.value *= value
+        if len(self.stack) > 0:
+            operation, value = self.stack.pop()
+            if operation == "add":
+                self.value -= value
+            elif operation == "subtract":
+                self.value += value
+            elif operation == "multiply":
+                self.value /= value
+            elif operation == "divide":
+                self.value *= value
 
 
 calculator = Calculator(10)
