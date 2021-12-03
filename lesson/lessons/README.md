@@ -45,4 +45,6 @@ editLink: false
 
 ## Lesson 20 [Virtual Environment](virtual-env.md)
 
+## Lesson 21 [Advent of Code](advent-of-code.md)
+
 to be continued...

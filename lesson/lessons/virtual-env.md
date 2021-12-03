@@ -4,7 +4,7 @@ tags:
   - Basic
   - Virtual Environment
 prev: ./classes-objects.md
-next: null
+next: ./advent-of-code.md
 ---
 
 # Virtual Environment
