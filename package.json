@@ -6,7 +6,7 @@
     "start": "npm run dev"
   },
   "devDependencies": {
-    "@mr-hope/vuepress-plugin-copy-code": "^1.21.0",
+    "@mr-hope/vuepress-plugin-copy-code": "^1.23.0",
     "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
     "@vuepress/plugin-back-to-top": "^1.9.5",
     "@vuepress/plugin-pwa": "^1.9.5",
