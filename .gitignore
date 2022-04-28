@@ -1,7 +1,7 @@
 __pycache__
 .python-version
+.venv
 build
 dist
 dist
 node_modules
-venv
