@@ -47,4 +47,6 @@ editLink: false
 
 ## Lesson 21 [Advent of Code](advent-of-code.md)
 
+## Lesson 22 [Project Euler](project-euler.md)
+
 to be continued...
