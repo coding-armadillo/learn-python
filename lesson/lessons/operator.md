@@ -175,3 +175,13 @@ Applying `~` to a number in Python requires knowledge about [Two's complement](h
 It also has to deal with sign (positive/negative). We may talk about this in future.
 
 :::
+
+## Assignment 2.5
+
+[Kattis Problem Archive](https://open.kattis.com) is a great source to practice programming and problem solving skills. Let's take a look at problem [R2](https://open.kattis.com/problems/r2).
+
+Given that you can use the following code to capture user input of `r1` and `s`, how would you solve this problem?
+
+```py
+r1, s = input().split()
+```
