@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://raw.githubusercontent.com/coding-armadillo/coding-armadillo-logo/main/coding-armadillo-web.png
+heroImage: https://raw.githubusercontent.com/coding-armadillo/learn-python/main/lesson/.vuepress/public/logo.png
 heroText: Learn Python with Coding Armadillo
 tagline: Python Tutorial for Beginners
 actionText: Get Started →

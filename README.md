@@ -8,7 +8,7 @@ A Python tutorial for beginners, powered by VuePress and deployed at
 - [https://learn-python-with-coding-armadillo.netlify.app](https://learn-python-with-coding-armadillo.netlify.app)
 - [https://coding-armadillo.github.io/learn-python/](https://coding-armadillo.github.io/learn-python/)
 
-## Get Started
+## Getting Started
 
     npm install
     npm start
