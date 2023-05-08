@@ -43,4 +43,4 @@ pyinstaller script.py --onefile
 
 ## Assignment 21
 
-Use `Pyinstaller` to make your solution to [Assignment 20](./another-challenge.md#assignment-20)) an executable.
+Use `Pyinstaller` to make your solution to [Assignment 20](./another-challenge.md#assignment-20) an executable.
