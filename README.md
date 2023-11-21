@@ -17,14 +17,6 @@ A Python tutorial for beginners, powered by VuePress and deployed at
     npm install
     npm start
 
-### Development
-
-Also install `black` to auto format Python code snippets.
-
-    python -m venv .venv
-    source .venv/bin/activate
-    pip install -r requirements-dev.txt
-
 ## Credits
 
 - [Logo][1] by [Flatart][2]

@@ -1,1 +1,0 @@
-pip-check-updates==0.22.0
