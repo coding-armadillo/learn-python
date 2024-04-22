@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "e33c631c4cfb3483c7a3e763ee11cb09"
+    "revision": "dc555a4aa2e417f95712a5725db37f8b"
   },
   {
     "url": "assets/css/0.styles.e2cc325e.css",
@@ -134,8 +134,8 @@ self.__precacheManifest = [
     "revision": "9f21a3d3d852a646b558702c36693b0a"
   },
   {
-    "url": "assets/js/11.37826257.js",
-    "revision": "33d63d5cf72b9e125bc288931704cae4"
+    "url": "assets/js/11.85df2af8.js",
+    "revision": "e5dcd994e2abc9fa725742d31f9208f5"
   },
   {
     "url": "assets/js/12.8952f3dd.js",
@@ -190,8 +190,8 @@ self.__precacheManifest = [
     "revision": "bd6d0637da5b2d5856da3ff5058a140e"
   },
   {
-    "url": "assets/js/24.2dd09b87.js",
-    "revision": "59159b3b6b73aeb0a27b398ff0a936ef"
+    "url": "assets/js/24.f05a867d.js",
+    "revision": "3b3d1e7f74622ae9383fc201938e36e4"
   },
   {
     "url": "assets/js/25.5830db64.js",
@@ -226,16 +226,16 @@ self.__precacheManifest = [
     "revision": "b35405c6d26aff4a239a8a46a4e833e1"
   },
   {
-    "url": "assets/js/32.14a1e5e4.js",
-    "revision": "c20fbd2d15f5243066d1d51b548ef6df"
+    "url": "assets/js/32.b29b622f.js",
+    "revision": "2d551bc102136a47bc10063e1054cb6a"
   },
   {
     "url": "assets/js/33.a1be0230.js",
     "revision": "f99852664913d7b370a333722a04392b"
   },
   {
-    "url": "assets/js/34.dcfb0ca6.js",
-    "revision": "36183a40beddb10c14554ff82a7d2700"
+    "url": "assets/js/34.428bf192.js",
+    "revision": "43eecb7e66766bfaea986267c91f18b8"
   },
   {
     "url": "assets/js/35.8d51a9dd.js",
@@ -246,56 +246,56 @@ self.__precacheManifest = [
     "revision": "a146b8f2c5f30263123315bb277d9d7c"
   },
   {
-    "url": "assets/js/37.65cd9597.js",
-    "revision": "37b6828bd88a8152ea796e248e7b736f"
+    "url": "assets/js/37.0eb4d8e3.js",
+    "revision": "d8119cc56d3806ada01deda3afdee93d"
   },
   {
-    "url": "assets/js/38.ff3e8398.js",
-    "revision": "c577569ca7666b96e70345faed22460f"
+    "url": "assets/js/38.3b4e53a1.js",
+    "revision": "2aa02b2005608ea01780032068ea68af"
   },
   {
-    "url": "assets/js/39.553feda4.js",
-    "revision": "ab4b1a587e0a3498828bef0bc83d3f75"
+    "url": "assets/js/39.ce08b748.js",
+    "revision": "f0d98744e8ad57299159c3a949becc50"
   },
   {
     "url": "assets/js/4.6d0b5865.js",
     "revision": "4c977e01c353de56606a09dcd33ce235"
   },
   {
-    "url": "assets/js/40.c18f8555.js",
-    "revision": "d429b5d2389bb9528caec8dd9bb7d634"
+    "url": "assets/js/40.18222bd9.js",
+    "revision": "f2251e8360fe540b241fe934f4cde97c"
   },
   {
-    "url": "assets/js/41.301574f3.js",
-    "revision": "9855216e7b8edd552491522d48dc3361"
+    "url": "assets/js/41.3ed371be.js",
+    "revision": "495e6390e2257e378784367eb23d8e70"
   },
   {
     "url": "assets/js/42.ff89c9d6.js",
     "revision": "f1505e557ff388ea1f620d1fa29e9cf3"
   },
   {
-    "url": "assets/js/43.b9f470d1.js",
-    "revision": "d7ac26c009d5040a41a0747cddc108f5"
+    "url": "assets/js/43.ceb62df8.js",
+    "revision": "f4442aa6444681f53cf851c68a4eaade"
   },
   {
-    "url": "assets/js/44.61bf767b.js",
-    "revision": "1280698bdca7ec929ce969ec662370a2"
+    "url": "assets/js/44.7e6dcd6d.js",
+    "revision": "51e8c69e00f0e4e3022bb7e9a0910dfd"
   },
   {
-    "url": "assets/js/45.575f83d8.js",
-    "revision": "93125f0f28f45d485c8b93560725604b"
+    "url": "assets/js/45.04f3fea4.js",
+    "revision": "b84b9e949cf14bf6d4475c441d1a34f4"
   },
   {
-    "url": "assets/js/46.71832f0f.js",
-    "revision": "a1c56d14e0b7547418e4f8c19e9da3f3"
+    "url": "assets/js/46.9a700a8a.js",
+    "revision": "de5f0ddebb1a067bd5cc01497cfbd225"
   },
   {
     "url": "assets/js/47.fb7069fd.js",
     "revision": "81c936b97b10b4dd6ba15e739f1d956f"
   },
   {
-    "url": "assets/js/48.4e1700d2.js",
-    "revision": "e933438c195526dada3e8aa80c49f1d2"
+    "url": "assets/js/48.c8fb37f0.js",
+    "revision": "a33ac06079f9536a73720bececbf905c"
   },
   {
     "url": "assets/js/49.aa5f77ba.js",
@@ -318,8 +318,8 @@ self.__precacheManifest = [
     "revision": "2770a8e4cf67ac9c0e603d1095e20868"
   },
   {
-    "url": "assets/js/app.34b660d7.js",
-    "revision": "e51db785db5aaa58d98a85d61043f1b4"
+    "url": "assets/js/app.e15d4d11.js",
+    "revision": "12149bd11503c9cfc1941496280b91af"
   },
   {
     "url": "assets/js/vendors~docsearch.d58db586.js",
@@ -339,99 +339,99 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "04d0229457484a1128c9efa7ad523c3f"
+    "revision": "cf68ca38c5aaf19dff7a700204fd71d4"
   },
   {
     "url": "lessons/advent-of-code.html",
-    "revision": "ef3d2898f4b84b7b37692fd3d22a0ec1"
+    "revision": "6c9c4b5d91475d64dfb4c8ecec2dbb31"
   },
   {
     "url": "lessons/another-challenge.html",
-    "revision": "c9309b46a0b26da783738d79df4a1328"
+    "revision": "79e094e5aad3a7210878a1bdee52a136"
   },
   {
     "url": "lessons/classes-objects.html",
-    "revision": "4f8a956f2a728abf41c04331f61cf9f5"
+    "revision": "ea11fb71895abe2f71e7e38e1c46f987"
   },
   {
     "url": "lessons/coding-challenge.html",
-    "revision": "4ba5971812725529f94fb54a75e15093"
+    "revision": "a9f86cadeab0290999545bbf53a32fb4"
   },
   {
     "url": "lessons/comment.html",
-    "revision": "68aa58bb620b46919aef8a599203b4e5"
+    "revision": "da1c23bd86d80c5df220605abb3461e0"
   },
   {
     "url": "lessons/control-flow.html",
-    "revision": "68c77e5e30293e4024dbb63d9e12f3fd"
+    "revision": "90566a1a2385de7f2795817ecf00f38e"
   },
   {
     "url": "lessons/functions.html",
-    "revision": "02ab97f945d770da91a7ac4cc4e4815a"
+    "revision": "4c3397270b02d011bb35f5f22e1b7a72"
   },
   {
     "url": "lessons/index.html",
-    "revision": "324017426ddf13ad7a540e48525c8645"
+    "revision": "44cffce90db0780fefa174e9b5ccde4a"
   },
   {
     "url": "lessons/introduction.html",
-    "revision": "6cf4d8fa03afcfe14240dd070c1eb0d6"
+    "revision": "1213829fd59e8e1b318521d977d20c31"
   },
   {
     "url": "lessons/make-executables.html",
-    "revision": "c4ff5002dcffdecb44196db933bd3f80"
+    "revision": "43e71fce5d9eebafec3e8a8860f7b48d"
   },
   {
     "url": "lessons/mapping-data-type.html",
-    "revision": "8bdc244a0a806e60798833cf05321dd4"
+    "revision": "95ad38594e26d758d6a2959b73336612"
   },
   {
     "url": "lessons/modules.html",
-    "revision": "47e100135b5a4c4142bfe87d78647ca4"
+    "revision": "70af70e3240e5543d3ed17f2bda1d72e"
   },
   {
     "url": "lessons/operator.html",
-    "revision": "25761aba0d9d5a049ab9afee8e5b7b8f"
+    "revision": "6b74819feddf53393a7ae78e45c7acee"
   },
   {
     "url": "lessons/project-euler.html",
-    "revision": "cdee1e18f1cb08d87ac35f8c9daa5467"
+    "revision": "6ae229cc9b9679666d2e344d09e947cd"
   },
   {
     "url": "lessons/script.html",
-    "revision": "cb8720698fbf2f8563a59d626fb10ac4"
+    "revision": "a99a4113b4a3ea44be3b39f526113452"
   },
   {
     "url": "lessons/sequence-data-type.html",
-    "revision": "47f2434f63888eed7eaa2b9086b1f32b"
+    "revision": "69d50dd4d85966c880739c6dae4b23e3"
   },
   {
     "url": "lessons/set-data-type.html",
-    "revision": "bf3cdc6c8fb983873a35a75791866942"
+    "revision": "6cef3289ee7d557f6a89bd04c9b2143c"
   },
   {
     "url": "lessons/setup.html",
-    "revision": "28635b08c3e510611dc159b4dca1b552"
+    "revision": "1a12689f014be695fbffc4f3f5461130"
   },
   {
     "url": "lessons/tiny-challenge.html",
-    "revision": "908862f862434a40e82f3652b5fc630d"
+    "revision": "6bff52d20206ded834c85d1683a91975"
   },
   {
     "url": "lessons/turtle.html",
-    "revision": "59e06dec20983ee67ee3117653076f82"
+    "revision": "acb5dcaccb1059eec3def7fb30aaed3f"
   },
   {
     "url": "lessons/variable-and-data-types.html",
-    "revision": "21625b403e2c6ddb109212ee9467bc49"
+    "revision": "17ad901a82f959a24e908e6a733b4ba7"
   },
   {
     "url": "lessons/version-control.html",
-    "revision": "3988a473310a61e2c81e05eaeb319924"
+    "revision": "fde631b8b53b322576ee0d64578098d5"
   },
   {
     "url": "lessons/virtual-env.html",
-    "revision": "7f37ca6177bec9a9f71efc8176720ccc"
+    "revision": "0e32dc61fc5207f70d6385b27afcfb83"
   },
   {
     "url": "logo.png",
@@ -439,7 +439,7 @@ self.__precacheManifest = [
   },
   {
     "url": "tags.html",
-    "revision": "c41452ebf310ecd16490cd8ef9e7cade"
+    "revision": "2cc7520c5650ad0017b8abb3005ea3ef"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
