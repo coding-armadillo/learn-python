@@ -5,7 +5,7 @@
 # learn-python
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/10eb36da-97dc-4dbe-a543-ed74db22b7d1/deploy-status)](https://app.netlify.com/sites/learn-python-with-coding-armadillo/deploys)
-[![GitHub Pages](https://github.com/coding-armadillo/learn-python/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/coding-armadillo/learn-python/actions/workflows/gh-pages.yml)
+[![GitHub Pages](https://github.com/coding-armadillo/learn-python/actions/workflows/gh-deploy.yml/badge.svg)](https://github.com/coding-armadillo/learn-python/actions/workflows/gh-deploy.yml)
 
 A Python tutorial for beginners, powered by VuePress and deployed at
 
