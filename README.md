@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" alt="logo" height="128">
+    <img src="https://raw.githubusercontent.com/coding-armadillo/learn-python/refs/heads/main/lesson/.vuepress/public/logo.png" alt="logo" height="128">
 </div>
 
 # learn-python
@@ -16,10 +16,3 @@ A Python tutorial for beginners, powered by VuePress and deployed at
 
     npm install
     npm start
-
-## Credits
-
-- [Logo][1] by [Flatart][2]
-
-[1]: https://www.iconfinder.com/icons/4518857/python_icon
-[2]: https://www.iconfinder.com/Flatart
